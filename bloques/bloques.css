@@ -6,7 +6,7 @@
 #wrapper{
     padding: 15px;
     width: 950px;
-    background-color: grey;
+    background-color: grey; 
     margin: 0px auto;
 }
 #header{
@@ -20,6 +20,7 @@
     min-height: 300px;
     width: 200px;
     background-color: pink;
+    /* display: inline-block; permite que sean organizados en la misma linea*/
 }
 #main_content{
     vertical-align: top;
@@ -29,6 +30,8 @@
     background-color: blue;
     border-right: 31px solid blue;
     border-bottom: 20px solid blue;
+    /* Con border le creo añado espacio al elemento, solid para que se vea y blue para el color */
+    /* Con vertical-align: top; estoy subiendo el elemento */
 }
 .subcontents{
     display: inline-block;
@@ -37,6 +40,7 @@
     min-height: 200px;
     width: 210px;
     background-color: yellow;
+    /* Con margin le doy un margen al elemento, y el margin right 0px le quita el margen a la derecha al elemento */
 }
 #advertisement{
     margin-left: 15px;
